@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: bc46-eureka-server
+  cloud:
+    config:
+      uri: http://localhost:8888
